@@ -1,0 +1,204 @@
+
+@charset "UTF-8";
+
+
+body{
+	background-image: url("../Images/ind1.jpg");
+	margin: 0;
+	padding: 5px;
+	}
+	
+	#conteneur{
+	max-width: 750px;
+	margin: auto;
+	}
+	
+	/* HEADER */
+	header { 
+	height: 320px;
+    background-image: url("../Images/banner1.jpg");
+	display: flex; 
+  	display: -webkit-flex;
+  	flex-direction: column;
+	-webkit-flex-direction: column;
+ 	justify-content: flex-end; 
+ 	-webkit-justify-content: flex-end;
+	}
+	
+	header>h1{
+	color: #ff6666;
+	text-shadow: 0 0 5px #000;
+	font-size: 55px;
+	font-style: italic;
+   	}
+	
+	header>h2{
+	color: #ff8080;
+	font-style: italic;
+	font-size: 35px;
+	text-shadow: 0 0 5px #000;
+    }
+	
+	nav{
+	background-color: #dfbf9f;
+	display: flex; 
+  	display: -webkit-flex;
+  	justify-content: flex-end; 
+ 	-webkit-justify-content: flex-end;
+ 	list-style-type: none;
+	}
+	
+	nav>li{
+	margin-right: 10px;
+    }
+
+   .nav{
+	color:#331a00;
+	padding: 18px;
+	}
+	
+	.nav:hover{
+	color: #804200;
+	background-color: #ffe6cc;
+    }
+
+
+	#contenu{
+	display: flex;
+	display: -webkit-flex;
+	height: 100%;
+	background: #ffffe6;
+	
+	}
+	
+	.main{
+	flex: 2;
+	-webkit-flex: 2;
+	margin-right: 10px;
+	}
+	
+	/*PAGE D' ACCUEIL */
+	
+	article{
+		padding: 5px;
+		margin-left: 5px;
+		margin-top:5px;
+		margin-bottom:5px;
+		background-color: #ffffe6;
+		color: #170a15;
+	}
+	
+	article>h2{
+	color: #ff6666;
+	}
+	
+	.img-accueil{
+	width: 100%;
+	vertical-align: bottom;
+	}
+
+    .img-text{
+	width:55%;
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+    }
+	
+	.lien{
+	color: #ffa31a;
+	}
+	
+	/*PAGE PRODUIT */
+	
+	th{
+	font-size: 25px;
+	color:#ff6666;	
+	}
+	td{
+	font-size: 20px;
+	font-style: italic;	
+	color: #331a00;
+	}
+	/*PAGE GALERIE*/
+	
+	#galerie{
+	display: flex; 
+  	display: -webkit-flex;
+  	flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+			
+	}
+	
+	table {
+		margin:0;
+		width: 400px;
+	}
+	
+	/*PAGE CONTACT */
+	
+	form{
+	margin-top: 20px;
+	}
+	
+	input.text{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	padding: 2px;
+	background: #fff;
+	margin-bottom: 10px;
+	}
+
+	textarea{
+	width: 250px;
+	height: 150px;
+	border-radius: 5px;
+	border: solid 1px #ccc;
+	padding: 2px;
+	background: #fff;
+	margin-bottom: 10px;
+	}
+
+	input.button{
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	padding: 2px;
+	color: #fff;
+	cursor: pointer;
+	border: 0;
+	}
+
+	input[type="submit"]:hover{
+	background: #5e5c62;
+	}
+	
+	/* Rigth side */
+	
+	aside{
+	background-color:#ffe6e6;
+	padding: 10px;
+	-webkit-flex: 1;
+	margin-left: 10px;
+	flex: 1;
+	}
+	
+	aside>h3{
+	color: #331a00;	
+	}
+	
+	iframe{
+	border:2px solid #e6e600;
+	}
+	
+/* 	FOOTER */
+	footer { 
+	padding: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	color: #331a00;
+	background-color: #dfbf9f;
+	}
+	
+	

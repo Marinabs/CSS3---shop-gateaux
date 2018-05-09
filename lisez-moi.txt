@@ -1,0 +1,13 @@
+Nom: BABCINSCHI
+Prénom: MARINA
+
+Le sujet du projet est 'Les Gateaux'.
+4 pages: accueil, produit, galerie et contact. 
+
+Les articles sont tiré du sites :
+http://lesgateauxenchantes.com/tarifs/
+http://www.mllesgateaux.com/collections-patisseries-gourmandises.php
+
+SVP tester le dans le Chrome. 
+
+Merci. 
